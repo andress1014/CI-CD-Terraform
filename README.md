@@ -23,11 +23,11 @@ sudo systemctl enable jenkins
 # Verificar el estado de Jenkins
 sudo systemctl status jenkins
 
-# Abrir el puerto 8080 en el grupo de seguridad de la instancia (HTTP)
-# Nota: Asegúrate de haber configurado correctamente los grupos de seguridad en la consola de AWS.
+## Abrir el puerto 8080 en el grupo de seguridad de la instancia (HTTP)
+## Nota: Asegúrate de haber configurado correctamente los grupos de seguridad en la consola de AWS.
 
-# Acceder a Jenkins desde el navegador utilizando la IP pública o el nombre de dominio de la instancia y el puerto 8080
-# http://ec2-tu-ip.compute-1.amazonaws.com:8080
+## Acceder a Jenkins desde el navegador utilizando la IP pública o el nombre de dominio de la instancia y el puerto 8080
+## http://ec2-tu-ip.compute-1.amazonaws.com:8080
 
 # Obtener la contraseña inicial de Jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
